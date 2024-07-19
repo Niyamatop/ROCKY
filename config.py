@@ -13,14 +13,14 @@ class Config(object):
     ARQ_API_KEY = "PMPTTD-HOMLMF-SRBHNH-RZMWXL-ARQ"
     STRING_SESSION = getenv("STRING_SESSION", None)
     SPAMWATCH_API = None
-    TOKEN = getenv("TOKEN", None)
+    TOKEN = getenv("7203229265:AAE28YOfCAzCg2LCs8wBvStIGJthpRIY9LQ", None)
     OWNER_ID = int(getenv("OWNER_ID", "5536168611"))  # sᴛᴀʀᴛ @Exon_Robot ᴛʏᴘᴇ /id
     OWNER_USERNAME = getenv("OWNER_USERNAME", "DARKCURSED0")
     SUPPORT_CHAT = getenv("SUPPORT_CHAT", "beta_support")
     LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002239117016"))
-    MONGO_URI = getenv("MONGO_DB_URI")
+    MONGO_URI = getenv("mongodb+srv://Dark123:Dark123@cluster0.jsapbqx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     REDIS_URL = "redis://default:wK6ZCiclq4iQKYpgfY90v6kd6WdPfEwl@redis-10186.c263.us-east-1-2.ec2.cloud.redislabs.com:10186/default"
-    DATABASE_URL = getenv("DATABASE_URL")
+    DATABASE_URL = getenv("postgres://avnadmin:AVNS_gwvtPgMcQ7IX0qwaCG9@freedb-mayrice01.i.aivencloud.com:14358/defaultdb?sslmode=require")
 
     # ɴᴏ ᴇᴅɪᴛ ᴢᴏɴᴇ
     if DATABASE_URL.startswith("postgres://"):
